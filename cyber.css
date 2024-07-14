@@ -1,0 +1,101 @@
+h3 {
+        font-family:ms sans serif;
+	width:400px;
+	height:0px;
+	color:black;
+	filter:glow(strength=10,color=steelblue);
+	text-align:center
+	}
+#heading {filter:glow(strength=10,color=orange);border-style:solid;border-color:green;border-width:1px;color:ivory;width:300px;background:teal}
+h1 {color:aliceblue;font-size:20px;border-style:solid;border-color:green;border-width:1px;color:ivory;background:cadetblue;padding:8px;}
+P,TD,TH,FORM,BODY {
+      Color:lightslategray;
+      font-family:tahoma;
+      font-weight:bold;
+      font-size:12px;
+  }
+P {padding:10px;border:1 solid gray;color:red}
+BODY {
+      background:url(./cyber.jpg);
+      background-attachment:fixed;
+      background-repeat:repeat-y;
+      margin:0px;
+      scrollbar-DarkShadow-Color:"ivory";
+      scrollbar-3DLight-Color:"maroon";
+      scrollbar-Arrow-Color:"ivory";
+      scrollbar-Base-Color:"ivory";	
+      scrollbar-Face-Color:"gray";
+      scrollbar-Highlight-Color:"ivory";
+      scrollbar-Shadow-Color:"gray";
+      scrollbar-Track-Color:"aliceblue";
+
+}
+h2,li {-moz-border-radius:20px;
+    font-family:tahoma;
+    font-size:15px;
+    font-weight:bold;
+    color:Black;
+    text-align:justify;
+    padding:10px;
+    list-style-type:square;
+   }
+legend, table {
+   font-family:tahoma;
+   color:gray;
+   font-size:12px;
+   font-weight:bold;
+   }
+button {
+border:1px solid gray;
+background:lightslategray;
+color:aliceblue;
+font-weight:bold;
+cursor:pointer;
+width:120px;
+font-size:12px;
+}
+A:link,A:visited,A:active {
+     color:maroon;
+     font-family:ms sans serif;
+     font-size:12px;
+     font-weight:bold;
+ }
+A:hover {
+       color:blue;
+       text-decoration:none
+ }
+.catg:link,.catg:active,.catg:visited {
+       text-decoration:none;
+       text-align:center;
+       color:aliceblue;
+       font-size:10px;
+       font-family:ms sans serif;
+       width:90px;
+       height:25px;
+       padding:4px;
+       border:1px solid gray;
+       text-align:center;
+       background:maroon;
+       filter:alpha(style=3,startX=0,startY=100);
+       
+    }
+.catg:hover {
+        text-decoration:none;
+	color:ivory;
+	filter:alpha(style=2);
+	background:green;
+
+	}
+input,select {
+           width:150px;
+	   font-size:12px;
+	   border:1px solid gray;
+	   background:honeydew;
+	   font-weight:bold;
+	   color:lightslategray
+	   }
+.check {
+        width:20px;
+	border:0;
+	background:"";
+	}

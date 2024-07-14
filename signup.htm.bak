@@ -1,0 +1,110 @@
+<html xmlns="">
+<head>
+<meta http-equiv="page-enter" content="blendTrans(duration=1)">
+<meta http-equiv="Pragma" content="no-cahe">
+<meta http-equiv="expires" content="0">
+<link href="cyber.css" rel="stylesheet">
+<title>Online Medical Booking Store</title>
+<style>
+select {width:110px}
+textarea {background:honeydew;overflow:auto;border:1px solid gray}
+</style>
+</head><body>
+<table width=780 cellspacing=0 cellpadding=0 border=0 align=center> 
+<tr><td><table width=780 cellspacing=0 cellpadding=0 border=0 align=center>
+  <tr>
+    <td><h1><font color=yellow>
+      <center>
+        Online Medical Booking Store
+      </center>
+    </font></h1></td>
+  </tr>
+</table></td></tr></table>
+<script src="cyber.js"></script>
+<SCRIPT SRC="./email.js" LANGUAGE=JAVASCRIPT></SCRIPT>
+<fieldset><legend>Register New User</legend><BR>
+<table border=0 cellpadding=5 cellspacing=0 width="500" style="font-family:tahoma;font-weight:bold;color:gray;font-size:12px"><form method=get action="register.jsp" onsubmit="return ValidateForm(this)">
+<tr>
+    <td align=right>User Name:</td>
+    <td><INPUT name="user_name"></td>
+</tr>
+<tr>
+   <td align=right>Password:</td>
+   <td><INPUT  name="password" type=password></td>
+</tr>
+<tr>
+   <td align=right>Confirm Password:</td>
+   <td><INPUT name="Confirm_Password" type=password></td>
+</tr>
+<tr>
+   <td align=right>Email Id:</td>
+   <td><INPUT name=email></td>
+</tr>
+<tr>
+  <Td align=right>Sex:</td>
+  <Td><input type=radio name=sex class=check checked value="male">Male&nbsp;&nbsp;
+      <input type=radio name=sex class=check value="female">Female</td>
+</tr>
+<tr>
+     <td align=right>Date Of Birth:
+     <Td><script>document.write(dayList());</script>
+     <SELECT name=month accesskey="B">
+     <OPTION selected value="null">Month</OPTION>
+     <option value="jan">January
+     <option value="feb">February
+     <option value="mar">March
+     <option value="apr">April
+     <option value="may">May
+     <option value="jun">June
+     <option value="jul">July
+     <option value="aug">August
+     <option value="sep">September
+     <option value="oct">October
+     <option value="nov">November
+     <option value="dec">December
+     </select>&nbsp;
+     <script>document.write(yearList());</script></td>
+</tr>
+<tr>
+     <td align=right>Hint Question:</td>
+     <td><select name=hint_question>
+     <option value="null" selected>Hint Question</option>
+     <option value="food">Favorite Food</option>
+     <option value="place">Historical Place</option>
+     <option value="pet">Pet Name</option>
+     <option value="event">Memorable Event</option>
+     </select>&nbsp;
+     <INPUT name=hint_answer></td>
+</tr>
+<tr>
+    <td align=right>Address:
+    <td><textarea wrap=off accesskey="D" rows=3 cols=20 name=address></textarea></td>
+</tr>
+<Tr><td align=right>Occupation:
+    <td><select name=occupation accesskey="O">
+    <option value="null" selected>Select Qualification
+    <option value="advocate">Advocate
+    <option value="collector">Collector
+    <option value="engineer">Engineer
+    <option value="graduate">Graduate
+    <option value="fashion_designer">Fashion Designer
+    <option value="IT_consultant">IT-Consultant
+    <option value="lawyer">Lawyer
+    <option value="lecturer">Lecturer[Teacher]
+    <option value="Manager">Manager in Organizaion
+    <option value="programmer">Programmer
+    <option value="post_graduate">Post Graduate
+    <option value="student">Student
+    <option value="Teacher">Other
+    </select></tr>
+<Tr><td align=right>Sun Sign:
+    <td><INPUT name=zodiac size=30>
+</tr>
+<Tr>
+    <td align=right>Phone/Mobile:
+    <td><INPUT name=phone>
+</tr>
+<tr><td colspan=2 align=center><button type=submit>Proceed</button>&nbsp;&nbsp;<button type=reset>Refresh</button></table>
+</form>
+
+</body></html>
